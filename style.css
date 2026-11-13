@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5e3e6 0%, #d8bfd8 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #4a4a4a;
+}
+
+.letter-container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(184, 134, 153, 0.2);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 182, 193, 0.3);
+}
+
+/* Decorative top accent border */
+.letter-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #b33951;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #5c5c5c;
+    font-weight: 300;
+}
+
+p:first-of-type {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #8c4a5b;
+}
+
+.signature {
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #b33951;
+    text-align: right;
+}
+
+/* Subtle floating heart accent */
+.heart {
+    text-align: center;
+    color: #ff758c;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
